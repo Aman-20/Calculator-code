@@ -1,0 +1,36 @@
+#python programm calculator
+
+print("what do you wan't to do?") 
+print("1 Addition ")
+print("2 Substraction")
+print("3 Multiplication")
+print("4 Division")
+
+choice = int(input("Enter your choice : "));
+
+if(choice>= 1 and choice<= 5):
+
+  print("Enter two number : ");
+  num1 = int(input());            
+  num2 = int(input());
+  
+
+  if choice == 1:
+      res = num1 + num2;
+      print("Result = ", res);
+  if choice == 2:
+      res = num1 - num2;
+      print("Result = ", res);
+  if choice == 3:
+      res = num1 * num2;
+      print("Result = ", res);
+  if choice == 4:
+      res = num1 / num2;
+      print("Result = ", res);
+
+
+
+
+else:
+    print("wrong input..!!");
+      
